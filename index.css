@@ -1,0 +1,43 @@
+body {
+  background-color: navy;
+}
+section {
+  background-image: url(img/th.jpg);
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 200%;
+  text-align: center;
+}
+header > img {
+  border-radius: 50%;
+  height: auto;
+  max-width: 7%;
+}
+h1 {
+  margin-top: 40%;
+  background: rgba(255, 255, 255, 0.89);
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  flex-wrap: wrap;
+}
+nav > * {
+  margin: 5%;
+}
+.main {
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 60%;
+  margin-top: 10%;
+  color: aliceblue;
+}
+nav *:hover {
+  font-size: 200%;
+}
+ul:hover {
+  font-size: 200%;
+}

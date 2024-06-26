@@ -38,6 +38,10 @@ nav > * {
 nav *:hover {
   font-size: 200%;
 }
-ul:hover {
+.main:hover {
   font-size: 200%;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }

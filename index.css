@@ -28,20 +28,22 @@ nav {
 nav > * {
   margin: 5%;
 }
-.main {
-  text-align: center;
-  margin-left: 35%;
-  margin-right: 40%;
-  margin-top: 10%;
+main {
   color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 nav *:hover {
   font-size: 200%;
 }
-.main:hover {
+main:hover {
   font-size: 200%;
 }
 footer {
   display: flex;
   justify-content: center;
+}
+ul {
+  margin: 5%;
 }
